@@ -37,7 +37,7 @@ if config_dict.get('GDRIVE_ID'):
         'MirrorCommand', 'LeechCommand', 'YtdlCommand', 'YtdlLeechCommand', 
         'CloneCommand', 'MediaInfoCommand', 'CountCommand', 'DeleteCommand', 'ListCommand', 'SearchCommand', 
         'UserSetCommand', 'StatusCommand', 'StatsCommand', 'StopAllCommand', 
-        'HelpCommand', 'BotSetCommand', 'LogCommand', 'RestartCommand'
+        'HelpCommand', 'BotSetCommand', 'LogCommand', 'RestartCommand', 'SpeedCommand'
     ]
 else:
     commands = [

@@ -31,8 +31,7 @@ default_values = {
     'DEFAULT_UPLOAD': 'gd',
     'SEARCH_LIMIT': 0,
     'UPSTREAM_BRANCH': 'main',
-    'TORRENT_TIMEOUT': 3000,
-    'SET_COMMANDS':True
+    'TORRENT_TIMEOUT': 3000
 }
 bool_vars = [
     'AS_DOCUMENT',
@@ -262,8 +261,8 @@ async def load_config():
     IMAGES = (IMAGES.replace("'", '').replace('"', '').replace(
         '[', '').replace(']', '').replace(",", "")).split()
 
-    # SET_COMMANDS = environ.get('SET_COMMANDS', '')
-    # SET_COMMANDS = SET_COMMANDS.lower() == 'true'
+    SET_COMMANDS = environ.get('SET_COMMANDS', '')
+    SET_COMMANDS = SET_COMMANDS.lower() == 'true'
 
     TOKEN_TIMEOUT = environ.get('TOKEN_TIMEOUT', '')
     TOKEN_TIMEOUT = int(TOKEN_TIMEOUT) if TOKEN_TIMEOUT.isdigit() else ''

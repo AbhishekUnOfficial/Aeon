@@ -199,7 +199,7 @@ def source(self):
 
 
 def get_readable_message():
-    msg = '<b>Powered by Aeon</b>\n\n'
+    msg = '<b>Powered by MoviesHub Mirror Bot</b>\n\n'
     button = None
     tasks = len(download_dict)
     currentTime = get_readable_time(time() - botStartTime)
@@ -472,5 +472,5 @@ def extra_btns(buttons):
 commands = [BotCommand(getattr(BotCommands, cmd)[0] if isinstance(getattr(BotCommands, cmd), list) else getattr(BotCommands, cmd), command_descriptions[cmd]) for cmd in commands]
 
 async def set_commands(bot):
-    if config_dict['SET_COMMANDS']:
+    if config_dict['']:
         await bot.set_bot_commands(commands)

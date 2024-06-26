@@ -54,7 +54,7 @@ command_descriptions = {
     'CloneCommand': '- /c Copy file/folder to Drive',
     'MediaInfoCommand': '- Get MediaInfo',
     'CountCommand': '- Count file/folder on Google Drive.',
-    'DeleteCommand': 'Delete file/folder from Google Drive.',
+    'DeleteCommand': '- Delete file/folder from Google Drive.',
     'ListCommand': '- Search in Drive',
     'SearchCommand': '- Search in Torrent',
     'UserSetCommand': '- User settings',

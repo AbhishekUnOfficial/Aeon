@@ -64,7 +64,8 @@ command_descriptions = {
     'HelpCommand': '- Get detailed help',
     'BotSetCommand': '- Open Bot settings',
     'LogCommand': '- View log',
-    'RestartCommand': '- Restart the bot'
+    'RestartCommand': '- Restart the bot',
+    'SpeedCommand': '- Server speedtest'
 }
 
 

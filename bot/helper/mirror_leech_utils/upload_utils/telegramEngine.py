@@ -182,6 +182,7 @@ class TgUploader:
 
     async def __prepare_file(self, prefile_, dirpath):
         file_, cap_mono = await process_file(prefile_, self.__user_id, dirpath)
+        cap_mono = f"<code>cap_mono<code>"
         if (atc:=self.__listener.attachment) and isMkv(prefile_):
             file_ = await add_attachment(prefile_, dirpath, atc)
         if prefile_ != file_:

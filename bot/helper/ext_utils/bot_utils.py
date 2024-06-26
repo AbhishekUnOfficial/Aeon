@@ -43,7 +43,7 @@ else:
     commands = [
         'LeechCommand', 'YtdlLeechCommand', 'MediaInfoCommand', 'SearchCommand', 
         'UserSetCommand', 'StatusCommand', 'StatsCommand', 'StopAllCommand', 
-        'HelpCommand', 'BotSetCommand', 'LogCommand', 'RestartCommand'
+        'HelpCommand', 'BotSetCommand', 'LogCommand', 'RestartCommand', 'SpeedCommand'
     ]
 
 command_descriptions = {

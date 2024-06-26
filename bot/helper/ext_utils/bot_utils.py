@@ -473,5 +473,5 @@ def extra_btns(buttons):
 commands = [BotCommand(getattr(BotCommands, cmd)[0] if isinstance(getattr(BotCommands, cmd), list) else getattr(BotCommands, cmd), command_descriptions[cmd]) for cmd in commands]
 
 async def set_commands(bot):
-    if config_dict['']:
+    if config_dict['SET_COMMANDS']:
         await bot.set_bot_commands(commands)

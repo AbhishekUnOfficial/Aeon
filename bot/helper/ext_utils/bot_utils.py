@@ -201,7 +201,7 @@ def source(self):
 
 
 def get_readable_message():
-    msg = '<b>Powered by MoviesHub Mirror Bot</b>\n\n'
+    msg = ''
     button = None
     tasks = len(download_dict)
     currentTime = get_readable_time(time() - botStartTime)
